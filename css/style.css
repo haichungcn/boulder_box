@@ -1,0 +1,33 @@
+.social-af > i {
+    color:#9ce1ad;
+}
+
+.social-af :nth-child(1){
+    margin-right:15%;
+}
+
+.social-af :nth-child(2){
+    margin-right:15%;
+}
+
+footer > .container-fluid {
+    padding:0 10%;
+}
+
+.footer-h5 {
+    color:#9ce1ad;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #649971 !important;
+}
+
+a {
+    text-decoration:none;
+    color: #9ce1ad;
+}
+
+footer {
+    background-color: #1e201f;
+}
