@@ -1,18 +1,10 @@
 header {
     position: relative;
     background-color: black;
-    height: 90vh;
+    height: 75vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-}
-
-nav {
-    font-family: 'Roboto', sans-serif;
-}
-
-.navbar-inner {
-    background: transparent;
 }
 
 header video {
@@ -85,15 +77,14 @@ header .overlay {
     border-style: double;
 }
 
-.navbar-toggler {
+.nav-custom-right {
     color: #547980 !important;
-    margin-right: 65px;
+    margin-right: 25px;
 }
 
 .nav-custom-left {
     color: #547980 !important;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 25px;
 }
 
 @media (min-width: 992px) {
@@ -102,7 +93,7 @@ header .overlay {
         -webkit-animation-duration: 0.3s;
         animation-fill-mode: both;
         -webkit-animation-fill-mode: both;
-        left: -45% !important;
+        left: -120% !important;
         right: auto !important;
         text-align: center !important;
     }
@@ -141,25 +132,4 @@ header .overlay {
 .slideIn {
     -webkit-animation-name: slideIn;
     animation-name: slideIn;
-}
-
-.custom-button-navbar {
-    padding: 10px;
-    position: relative;
-    color: #547980 !important;
-    box-sizing: border-box !important;
-    border-width: 0px !important;
-    border-style: solid !important;
-    border-color: #547980 !important;
-    transition-duration: 0.2s;
-}
-
-.custom-button-navbar:hover {
-    padding: 14px;
-    border-width: 1px !important;
-}
-
-.custom-button-navbar:active {
-    padding: 16px;
-    border-width: 1px !important;
 }
