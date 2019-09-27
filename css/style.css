@@ -50,7 +50,7 @@ footer {
 }
 
 /* Below How it Works CSS */
-.row  {
+#how-it-works > .row  {
     background-color:#9de0ad;
     margin: 20px;
     margin-bottom: 20px;
