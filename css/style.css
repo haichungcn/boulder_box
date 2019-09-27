@@ -1,3 +1,6 @@
+body {
+  background-color: #e0eee3;
+}
 
 /* footer + checkout */
 .social-af > i {
@@ -5,8 +8,18 @@
 }
 
 .header-checkout {
+  background-color: #e0eee3;
   height: auto;
   margin-bottom: 3rem;
+}
+
+.header-checkout > p {
+  font-size: 3rem;
+  width: 100%;
+}
+
+.checkout-title {
+  color: rgb(126, 14, 23) !important;
 }
 
 .main-logo {
