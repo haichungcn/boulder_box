@@ -1,4 +1,4 @@
-
+/* footer + checkout */
 .social-af > i {
     color:#9ce1ad;
 }
@@ -27,8 +27,8 @@
 }
 
 footer{
- padding-left:10rem;
- padding-right:10rem;
+    padding-left:10rem;
+    padding-right:10rem;
 }
 
 .footer-h5 {
@@ -48,7 +48,6 @@ a {
 footer {
     background-color: #1e201f;
 }
-=======
 
 /* Below How it Works CSS */
 .row  {
@@ -82,7 +81,7 @@ footer {
 
 .fas {
     font-size: 100px;
-  
+
 }
 
 #how-it-works {
@@ -128,7 +127,7 @@ h4 {
 }
 
 
- p {
+p {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     line-height: 25px;
@@ -139,7 +138,7 @@ h4 {
 }
 
 /* Below As Seen On CSS  */
- 
+
 #as-seen-on > h1 {
     text-align: center;
     color: #9de0ad;
@@ -153,7 +152,7 @@ h4 {
     background: #9de0ad;
     align-content: center;
     justify-content: center;
-   
+
 }
 .news-logo > img {
     display: flex;
@@ -164,7 +163,7 @@ h4 {
 
 }
 
- .as-seen-on {
+.as-seen-on {
     background:#9de0ad;
     
     margin-right: 0;
@@ -174,4 +173,172 @@ h4 {
 
 .row {
     align-items: center
+}
+
+/* nav-bar + header */
+
+header {
+    position: relative;
+    background-color: black;
+    height: 90vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-inner {
+    background: transparent;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+        display: none;
+    }
+}
+
+.meanful-button {
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    color: white;
+    margin-top: 10vh;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s
+}
+
+.meanful-button:hover {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    color: white;
+    margin-top: 10vh;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+    border: 10px;
+    border-color: white;
+    border-width: 10px;
+    border-style: double;
+}
+
+.navbar-toggler {
+    color: #547980 !important;
+    margin-right: 65px;
+}
+
+.nav-custom-left {
+    color: #547980 !important;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+        left: -45% !important;
+        right: auto !important;
+        text-align: center !important;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+.custom-button-navbar {
+    padding: 10px;
+    position: relative;
+    color: #547980 !important;
+    box-sizing: border-box !important;
+    border-width: 0px !important;
+    border-style: solid !important;
+    border-color: #547980 !important;
+    transition-duration: 0.2s;
+}
+
+.custom-button-navbar:hover {
+    padding: 14px;
+    border-width: 1px !important;
+}
+
+.custom-button-navbar:active {
+    padding: 16px;
+    border-width: 1px !important;
 }
