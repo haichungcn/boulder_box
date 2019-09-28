@@ -22,10 +22,6 @@ body {
   width: 100%;
 }
 
-.checkout-main-section {
-  padding: 0 10%;
-}
-
 .checkout-title {
   color: rgb(126, 14, 23) !important;
 }
@@ -148,7 +144,7 @@ p {
 }
 .display-6 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1re;
+  font-size: 1rem;
 }
 
 /* Below As Seen On CSS  */
@@ -197,6 +193,11 @@ header {
 
 nav {
   font-family: "Roboto", sans-serif;
+}
+
+#navbar {
+  border-width : .5rem !important;
+  border-color: #9ce1ad !important;
 }
 
 .navbar-inner {
