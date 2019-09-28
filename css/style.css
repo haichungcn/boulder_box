@@ -64,9 +64,6 @@ a {
   color: #9ce1ad;
 }
 
-/* .footer {
-  background-color: #1e201f;
-} */
 
 /* Below How it Works CSS */
 #how-it-works > .row {
@@ -193,11 +190,6 @@ header {
 
 nav {
   font-family: "Roboto", sans-serif;
-}
-
-#navbar {
-  border-width : .5rem !important;
-  border-color: #9ce1ad !important;
 }
 
 .navbar-inner {
