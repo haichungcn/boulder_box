@@ -16,21 +16,21 @@
 </head>
 
 <body>
-    <header class="container-fluid mx-my-auto pt-pb-0 header-checkout">
+    <section class="container-fluid mx-my-auto pt-pb-0 checkout-header">
         <div class="container text-center mt-0, pb-5 d-flex flex-column align-items-center justify-content-start">
-            <img class="mb-5 main-logo shadow p-3" src="img/logo/logo.png" alt="Boulder-Box-Logo" />
+            <img class="mb-5 main-logo shadow" src="img/logo/logo_bottom.png" alt="Boulder-Box-Logo" />
             <h1 class="display-4 mb-4 font-weight-bold text-center checkout-title">
                 Checkout
             </h1>
             <p class="lead text-center">
-                Don't be hesitate and don't look at the price!
+                Don't be hesitate and do not look at the price!
             </p>
         </div>
-    </header>
+    </section>
 
     <section class="container-fluid mt-0 pt-0">
-        <div class="container-fluid checkout-main-section" style="padding:0 15%;">
-            <div class="row">
+        <div class="container-fluid checkout-main-section">
+            <div class="row d-flex align-items-start">
                 <div class="col-sm-8">
                     <h5 class="mb-4">Billing Address</h5>
                     <form>
@@ -182,7 +182,7 @@
                             <strong>Your cart</strong>
                         </div>
                         <div class="col-4 d-flex justify-content-end">
-                            <span class="input-group-text border-0 rounded-circle">3</span>
+                            <span class="input-group-text border-0 rounded-circle">2</span>
                         </div>
                     </div>
                     <div class="row-md my-5">
@@ -231,7 +231,7 @@
                                     <div class="col-sm-8">
                                         Total
                                     </div>
-                                    <div class="col-sm-4 d-flex justify-content-end">
+                                    <div class="col-sm-4 d-flex justify-content-end text-success">
                                         FREE
                                     </div>
                                 </div>
@@ -240,11 +240,11 @@
                     </div>
                     <div class="row-md mt-5">
                         <div class="input-group border p-1 d-flex flex-nowrap">
-                            <div class="input-group-prepend mx-0 px-0">
+                            <div class="input-group-prepend mx-0 px-0 w-100">
                                 <input type="text" class="form-control" aria-label="Promocode" placeholder="Promo Code">
                             </div>
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button"
+                                <button class="btn active" type="button"
                                     id="inputGroupFileAddon03">Apply</button>
                             </div>
                         </div>
@@ -260,74 +260,73 @@
         </div>
     </section>
 
-    <footer class="footer d-flex justify-content-center">
+    <footer class="footer pt-3 d-flex justify-content-center">
         <div class="container-fluid pt-5 mb-5">
-            <div class="row-md-12 d-flex justify-content-md-between mb-3">
-                <div class="col-12 col-md">
-                    <img class="mb-2" src="img/logo/logo.png" alt="" width="130" height="auto" />
+            <div class="row mb-3">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                    <img class="mb-5" src="img/logo/logo.png" alt="" width="130" height="auto" />
                 </div>
-                <div class="col-6 col-md">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <h5 class="footer-h5">Company</h5>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="index.html">Home</a></li>
-                        <li><a class="text-muted" ∏href="#">About us</a></li>
-                        <li><a class="text-muted" href="#">Meet the team</a></li>
-                        <li><a class="text-muted" href="#">Our partners</a></li>
+                        <li><a class="text-muted" href="index.html/#navbar">Home</a></li>
+                        <li><a class="text-muted" href="index.html/#how-it-works">About us</a></li>
+                        <li><a class="text-muted" href="meettheteam.html">Meet the team</a></li>
+                        <li><a class="text-muted" href="#as-seen-on">Our partners</a></li>
                         <li><a class="text-muted" href="#">Blog</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-md">
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2">
                     <h5 class="footer-h5">Support</h5>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Shipping Policy</a></li>
+                        <li><a class="text-muted" href="#">Shipping</a></li>
                         <li>
-                            <a class="text-muted" href="#">International Shipping Policy</a>
+                            <a class="text-muted" href="#">International Shipping</a>
                         </li>
                         <li><a class="text-muted" href="#">Return Policy</a></li>
                         <li><a class="text-muted" href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-md">
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2">
                     <h5 class="footer-h5">Useful Links</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Cool stuff</a></li>
                         <li><a class="text-muted" href="#">Random feature</a></li>
                         <li><a class="text-muted" href="#">Team feature</a></li>
-                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
                         <li><a class="text-muted" href="#">Another one</a></li>
                         <li><a class="text-muted" href="#">Last time</a></li>
                     </ul>
                 </div>
 
-                <div class="col-6 col-md-auto d-flex justify-content-center social-af">
-                    <a class="social-btn" href="#">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-lg-end justify-content-md-around social-af">
+                    <a class="social-btn" href="https://www.facebook.com">
                         <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
                     </a>
-                    <a class="social-btn" href="#">
+                    <a class="social-btn" href="https://www.twitter.com">
                         <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
                     </a>
-                    <a class="social-btn" href="#">
-                        <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+                    <a class="social-btn" href="https://www.instagram.com">
+                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
 
             <div class="row mt-5">
-                <div class="col-lg-4 col-sm-12 text-muted">
+                <div class="col-11 col-md-5 col-lg-4 text-muted">
                     <p class="container-fluid text-left pl-0">
                         @ 2018-2019 Boulder Box Co.
                     </p>
                 </div>
-
-                <div class="col-lg-8 col-sm-12 text-muted text-md-right text-sm-center">
-                    <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item mr-5">
+                <div class="col-1 col-sm-3 col-md-3 col-lg-5"></div>
+                <div class="col-12 col-md-4 col-lg-3 text-muted text-md-right text-sm-center">
+                    <ul class="list-unstyled list-inline d-flex flex-nowrap d-flex justify-content-md-end">
+                        <li class="list-inline-item mr-lg-5 mr-md-3 mr-sm-2">
                             <a class="text-muted" href="#">Privacy</a>
                         </li>
-                        <li class="list-inline-item mr-5">
+                        <li class="list-inline-item mr-lg-5 mr-md-3 mr-sm-2">
                             <a class="text-muted" href="#">Terms</a>
                         </li>
-                        <li class="list-inline-item mr-auto">
+                        <li class="list-inline-item mr-lg-1 mr-md-auto">
                             <a class="text-muted" href="#">Support</a>
                         </li>
                     </ul>

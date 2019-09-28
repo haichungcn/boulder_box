@@ -7,15 +7,19 @@ body {
   color: #9ce1ad;
 }
 
-.header-checkout {
+.checkout-header {
   background-color: #e0eee3;
   height: auto;
   margin-bottom: 3rem;
 }
 
-.header-checkout > p {
+.checkout-header > p {
   font-size: 3rem;
   width: 100%;
+}
+
+.checkout-main-section {
+  padding: 0 10%;
 }
 
 .checkout-title {
@@ -25,7 +29,7 @@ body {
 .main-logo {
   width: 15rem;
   background-color: #9ce1ad;
-  padding-top: 5rem;
+  padding: 5rem 1rem .5rem 1rem;
 }
 
 .social-btn > i:hover {
@@ -40,9 +44,10 @@ body {
   margin-right: 10%;
 }
 
-footer {
-  padding-left: 10rem;
-  padding-right: 10rem;
+.footer {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #1e201f;
 }
 
 .footer-h5 {
@@ -59,9 +64,9 @@ a {
   color: #9ce1ad;
 }
 
-footer {
+/* .footer {
   background-color: #1e201f;
-}
+} */
 
 /* Below How it Works CSS */
 #how-it-works > .row {
@@ -174,9 +179,6 @@ p {
   padding: 0;
 }
 
-.row {
-  align-items: center;
-}
 
 /* nav-bar + header */
 
