@@ -1,10 +1,14 @@
 body {
-  background-color: #e0eee3;
+  background-color: #ffffff;
 }
 
 /* footer + checkout */
 .social-af > i {
   color: #9ce1ad;
+}
+
+#checkout-body {
+  background-color: #e0eee3;
 }
 
 .checkout-header {
