@@ -1,5 +1,6 @@
         body {
         background-color: #e0eee3;
+        margin: 0px;
     }
     /* footer + checkout */
     
@@ -191,10 +192,24 @@
     
     nav {
         font-family: 'Roboto', sans-serif;
+        animation-name: fadeIn;
+        -webkit-animation-name: fadeIn;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 0;
     }
     
     header>.navbar-inner {
         background: transparent;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
     
     header>video {
@@ -388,7 +403,8 @@
     
     .pricing .card-price {
         font-size: 3rem;
-        margin: 0;
+        top: 0;
+        margin-top: 0;
     }
     
     .pricing .card-price .period {
