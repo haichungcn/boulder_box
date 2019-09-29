@@ -146,7 +146,7 @@
     }
     /* Below As Seen On CSS  */
     
-    #as-seen-on>h1 {
+    #as-seen-on> h1 {
         text-align: center;
         color: #9de0ad;
         padding-top: 5rem;
@@ -198,6 +198,12 @@
         animation-duration: 2s;
         animation-iteration-count: 1;
         animation-delay: 0;
+        padding: 0 !important;
+    }
+
+    .navbar-brand{
+        padding: 0;
+        background-color: #9de0ad; 
     }
     
     .the-blur{

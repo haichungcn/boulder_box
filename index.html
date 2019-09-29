@@ -17,31 +17,25 @@
 
 <body>
     <!-- Tuan -->
-    <nav class="navbar fixed-top navbar-light navbar-expand-lg">
-        <a class="navbar-brand ml-5" href="index.html"><img src="img/logo/navbar-logo-wide.png" width="140 rem" height="80 rem" alt=""> </a>
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg shadow">
+        <a class="navbar-brand ml-5" href="index.html"><img src="img/logo/navbar-logo-wide.png" width="140vw" height="80vh" alt=""> </a>
         <div class="d-flex flex-row order-2 order-lg-3">
-            <ul class="navbar-nav flex-row">
-                <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fab fa-facebook-square"></span></a></li>
-                <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fab fa-twitter-square"></span></a></li>
-                <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fab fa-youtube"></span></a></li>
-                <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fab fa-linkedin"></span></a></li>
-            </ul>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
         <div class="collapse navbar-collapse order-3 order-lg-2 " id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Meet the team</a></li>
+                <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/index.html#Pricing">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="/meettheteam.html">Meet the team</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle custom-button-navbar" href="http://example.com" id="navbarDropdownMenuLink"
+                    <a class="nav-link dropdown-toggle custom-button-navbar" href="#" id="navbarDropdownMenuLink"
                         data-toggle="dropdown">Subscribe now!</a>
                     <div class="dropdown-menu dropdown-menu-right slideIn">
                         <a class="dropdown-item" href="#">Sign up</a>
                         <a class="dropdown-item" href="#">Sign in</a>
-                        <a class="dropdown-item" href="#">Subscribe now!</a>
+                        <a class="dropdown-item" href="/checkout.html">Subscribe now!</a>
                     </div>
                 </li>
             </ul>
@@ -55,9 +49,9 @@
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white header-custom">
-                    <h1 class="display-3">Subcription service for <br>climbing anthusiast</h1>
+                    <h1 class="display-3">Subcription service for <br>climbing enthusiast</h1>
                     <p class="lead mb-0">Engaging climbers & community to protect & preseve our climbing areas</p>
-                    <button class="awesome-button">Sound awesome? Join now!</button>
+                    <button class="awesome-button" onclick="window.location.href = '/index.html#Pricing';"">Sound awesome? Join now!</button>
                 </div>
             </div>
         </div>
