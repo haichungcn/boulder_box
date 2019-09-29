@@ -17,46 +17,31 @@
 
 <body>
     <!-- Tuan -->
-    <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light sticky-top shadow-lg">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link nav-custom-left font-weight-bold" href="index.html#navbar">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link nav-custom-left font-weight-bold" href="meettheteam.html">Meet the team</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link nav-custom-left font-weight-bold" href="index.html#pricing">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link nav-custom-left font-weight-bold" href="checkout.html">Cart</a>
-            </li>
-        </ul>
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg shadow">
+        <a class="navbar-brand ml-5" href="index.html"><img src="img/logo/navbar-logo-wide.png" width="140vw" height="80vh" alt=""> </a>
+        <div class="d-flex flex-row order-2 order-lg-3">
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-        <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto mr-2" href="#"> <img src="img/logo/navbar-logo-wide.png" width="140px"
-            height="70px" alt=""> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        </div>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 justify-content-end mr-5">
-        <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle font-weight-bold custom-button-navbar" href="#" id="navbarDropdown"
-                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Join us</a>
-            <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item font-weight-bold" href="#">Sign up</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item font-weight-bold" href="#">Sign in</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item font-weight-bold" href="checkout.html">Check out now!</a>
-            </div>
-        </ul>
+        <div class="collapse navbar-collapse order-3 order-lg-2 " id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/index.html#Pricing">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="/meettheteam.html">Meet the team</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle custom-button-navbar" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown">Subscribe now!</a>
+                    <div class="dropdown-menu dropdown-menu-right slideIn">
+                        <a class="dropdown-item" href="#">Sign up</a>
+                        <a class="dropdown-item" href="#">Sign in</a>
+                        <a class="dropdown-item" href="/checkout.html">Subscribe now!</a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </nav>
-
+  
     <header>
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -64,9 +49,10 @@
         </video>
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
-                <div class="w-100 text-white">
-                    <h1 class="display-3">This should be something meanful</h1>
-                    <p class="lead mb-0">But I'm not thinking out yet</p>
+                <div class="w-100 text-white header-custom">
+                    <h1 class="display-3">Subcription service for <br>climbing enthusiast</h1>
+                    <p class="lead mb-0">Engaging climbers & community to protect & preseve our climbing areas</p>
+                    <button class="awesome-button" onclick="window.location.href = '/index.html#Pricing';"">Sound awesome? Join now!</button>
                 </div>
             </div>
         </div>
@@ -83,8 +69,7 @@
             <div class="col-md-6 col-lg-4  how-text">
                 <h3>Choose Your Plan</h3>
                 <h4 class="subheading">We have three amazing subscription options to choose from. So if you are new to
-                    climbing
-                    or are planning out some first ascents we have something for you.</h4>
+                    climbing or are planning out some first ascents we have something for you.</h4>
                 <p class="text-muted">Some more filler text </p>
             </div>
         </div>
@@ -164,17 +149,21 @@
                                 <ul class="fa-ul">
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain"></i></span>Chalk</li>
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Athletic
-                                        Tape</li>
+                                        Tape
+                                    </li>
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Blister
-                                        Cream</li>
+                                        Cream
+                                    </li>
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Cap</li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Flask</li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Nutrition
-                                        Bar</li>
+                                        Bar
+                                    </li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Helmet
                                     </li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Monthly
-                                        Magazine</li>
+                                        Magazine
+                                    </li>
                                 </ul>
                                 <a href="checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
                             </div>
@@ -196,17 +185,21 @@
                                 <ul class="fa-ul">
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain"></i></span>Chalk</li>
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Athletic
-                                        Tape</li>
+                                        Tape
+                                    </li>
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Blister
-                                        Cream</li>
+                                        Cream
+                                    </li>
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Cap</li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Flask</li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Finger
-                                        Board</li>
+                                        Board
+                                    </li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Stickers
                                     </li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Monthly
-                                        Magazine</li>
+                                        Magazine
+                                    </li>
                                 </ul>
                                 <a href="checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
                             </div>
@@ -230,15 +223,19 @@
                                         Tape & Blister Cream</li>
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Harness</li>
                                     <li><span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Camping
-                                        Stove</li>
+                                        Stove
+                                    </li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Training
-                                        Gear</li>
+                                        Gear
+                                    </li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Climbing
-                                        Shoes</li>
+                                        Shoes
+                                    </li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Helmet
                                     </li>
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Monthly
-                                        Magazine</li>
+                                        Magazine
+                                    </li>
                                 </ul>
                                 </ul>
                                 <a href="checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
