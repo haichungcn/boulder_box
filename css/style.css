@@ -186,7 +186,7 @@
         background-color: black;
         height: 100vh;
         min-height: 25rem;
-        width: 100%;
+        width: 100vw;
         overflow: hidden;
     }
     
@@ -294,11 +294,11 @@
         background-color: transparent;
         margin-top: 49px;
         padding: 34px;
-        color: white;
+        color: #9de0ad;
         border-top: 4px solid transparent;
         border-bottom: 4px solid transparent;
         border-right: 4px solid transparent;
-        border-left: 24px solid white; /* Green */       
+        border-left: 24px solid#9de0ad; /* Green */       
     }
     .awesome-button:focus{
         outline: 0;
