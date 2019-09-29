@@ -17,41 +17,43 @@
 
 <body>
     <!-- Tuan -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top shadow-lg">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light sticky-top shadow-lg">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link nav-custom-left font-weight-bold" href="#navbar">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-custom-left font-weight-bold" href="meettheteam.html">Meet the team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-custom-left font-weight-bold" href="checkout.html">Cart</a>
-                </li>
-            </ul>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link nav-custom-left font-weight-bold" href="index.html#navbar">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-custom-left font-weight-bold" href="meettheteam.html">Meet the team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-custom-left font-weight-bold" href="index.html#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-custom-left font-weight-bold" href="checkout.html">Cart</a>
+            </li>
+        </ul>
         </div>
         <div class="mx-auto order-0">
             <a class="navbar-brand mx-auto mr-2" href="#"> <img src="img/logo/navbar-logo-wide.png" width="140px"
-                    height="70px" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            height="70px" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         </div>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 justify-content-end mr-5">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle font-weight-bold custom-button-navbar" href="#"
-                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">Join us</a>
-                    <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item font-weight-bold" href="#">Sign up</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item font-weight-bold" href="#">Sign in</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item font-weight-bold" href="#">Check out now!</a>
-                    </div>
-            </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle font-weight-bold custom-button-navbar" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Join us</a>
+            <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item font-weight-bold" href="#">Sign up</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item font-weight-bold" href="#">Sign in</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item font-weight-bold" href="checkout.html">Check out now!</a>
+            </div>
+        </ul>
         </div>
     </nav>
 
@@ -75,10 +77,10 @@
     <section id="how-it-works">
         <h1>How Boulder Box Works</h1>
         <div class="row row-1">
-            <div class="col-md-6 col-lg-6 how-img">
+            <div class="col-md-4 col-lg-4 how-img">
                 <i class="far fa-check-circle"></i>
             </div>
-            <div class="col-md-6 col-lg-4  how-text">
+            <div class="col-md-8 col-lg-8  how-text">
                 <h3>Choose Your Plan</h3>
                 <h4 class="subheading">We have three amazing subscription options to choose from. So if you are new to
                     climbing
@@ -131,7 +133,7 @@
     </section>
     </section>
 
-    <section id="Testimonial">
+    <section id="testimonial">
         Parsa
     </section>
 
@@ -143,7 +145,7 @@
     <!-- Pricing Cards  -->
 
 
-    <section id="Pricing">
+    <section id="pricing">
 
         <section class="pricing py-5">
             <div class="container">
@@ -174,7 +176,7 @@
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Monthly
                                         Magazine</li>
                                 </ul>
-                                <a href="/checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
+                                <a href="checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -206,7 +208,7 @@
                                     <li> <span class="fa-li"><i class="fas fa-mountain mountain "></i></span>Monthly
                                         Magazine</li>
                                 </ul>
-                                <a href="/checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
+                                <a href="checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +241,7 @@
                                         Magazine</li>
                                 </ul>
                                 </ul>
-                                <a href="/checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
+                                <a href="checkout.html" class="btn btn-block btn-primary text-uppercase">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -249,107 +251,106 @@
     </section>
 
     <!-- Diep -->
-    <section id="Newsletter">
-        <form class="px-5">
-            <div class="form-row px-5">
+    <section class="container-fluid my-4 py-5" id="newsletter">
+        <form class="container-fluid">
+            <div class="form-row">
                 <div class="col-md-3"></div>
-                <div class="form-group col-md-3">
+                <div class="form-group col-md-3 mr-md-1">
                     <label for="inputName">Full Name</label>
                     <input type="name" class="form-control" id="inputEmail4" placeholder="Diep Tran">
                 </div>
-                <div class="form-group col-md-3">
+                <div class="form-group col-md-3 ml-md-1">
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
                 </div>
                 <div class="col-md-3"></div>
             </div>
-            <div class="form-row px-5">
-                <div class="col-md-3"></div>
-                <div class="text-center mb-5 px-5 col-md-6">
-                    <button type="submit" class="btn btn-info">Signup Newsletter</button>
+            <div class="form-row my-4 d-flex align-items-center">
+                <div class="col-md-4"></div>
+                <div class="text-center col-md-4">
+                    <button type="submit" class="btn btn-info py-2 px-4 mx-5 shadow">SIGN UP TO OUR NEWSLETTER</button><br>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-4"></div>
             </div>
         </form>
     </section>
 
     <!-- Hai -->
     <!-- Footer -->
-    <footer class="footer d-flex justify-content-center">
-        <div class="container-fluid pt-5 mb-5">
-            <div class="row-md-12 d-flex justify-content-md-between mb-3">
-                <div class="col-12 col-md">
-                    <img class="mb-2" src="img/logo/logo.png" alt="" width="130" height="auto" />
+    <footer class="footer pt-3 d-flex justify-content-center">
+            <div class="container-fluid pt-5 mb-5">
+                <div class="row mb-3">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                        <img class="mb-5" src="img/logo/logo.png" alt="" width="130" height="auto" />
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <h5 class="footer-h5">Company</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="index.html#navbar">Home</a></li>
+                            <li><a class="text-muted" href="index.html#how-it-works">About us</a></li>
+                            <li><a class="text-muted" href="meettheteam.html">Meet the team</a></li>
+                            <li><a class="text-muted" href="index.html#as-seen-on">Our partners</a></li>
+                            <li><a class="text-muted" href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <h5 class="footer-h5">Support</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Shipping</a></li>
+                            <li>
+                                <a class="text-muted" href="#">International Shipping</a>
+                            </li>
+                            <li><a class="text-muted" href="#">Return Policy</a></li>
+                            <li><a class="text-muted" href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <h5 class="footer-h5">Useful Links</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Cool stuff</a></li>
+                            <li><a class="text-muted" href="#">Random feature</a></li>
+                            <li><a class="text-muted" href="#">Team feature</a></li>
+                            <li><a class="text-muted" href="#">Another one</a></li>
+                            <li><a class="text-muted" href="#">Last time</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-lg-end justify-content-md-around social-af">
+                        <a class="social-btn" href="https://www.facebook.com">
+                            <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
+                        </a>
+                        <a class="social-btn" href="https://www.twitter.com">
+                            <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
+                        </a>
+                        <a class="social-btn" href="https://www.instagram.com">
+                            <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-6 col-md">
-                    <h5 class="footer-h5">Company</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="index.html">Home</a></li>
-                        <li><a class="text-muted" ∏href="#">About us</a></li>
-                        <li><a class="text-muted" href="#">Meet the team</a></li>
-                        <li><a class="text-muted" href="#">Our partners</a></li>
-                        <li><a class="text-muted" href="#">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5 class="footer-h5">Support</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Shipping Policy</a></li>
-                        <li>
-                            <a class="text-muted" href="#">International Shipping Policy</a>
-                        </li>
-                        <li><a class="text-muted" href="#">Return Policy</a></li>
-                        <li><a class="text-muted" href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5 class="footer-h5">Useful Links</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Cool stuff</a></li>
-                        <li><a class="text-muted" href="#">Random feature</a></li>
-                        <li><a class="text-muted" href="#">Team feature</a></li>
-                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                        <li><a class="text-muted" href="#">Another one</a></li>
-                        <li><a class="text-muted" href="#">Last time</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-6 col-md-auto d-flex justify-content-center social-af">
-                    <a class="social-btn" href="#">
-                        <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
-                    </a>
-                    <a class="social-btn" href="#">
-                        <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
-                    </a>
-                    <a class="social-btn" href="#">
-                        <i class="fab fab fa-instagram fa-3x" aria-hidden="true"></i>
-                    </a>
+    
+                <div class="row mt-5">
+                    <div class="col-11 col-md-5 col-lg-4 text-muted">
+                        <p class="container-fluid text-left pl-0">
+                            @ 2018-2019 Boulder Box Co.
+                        </p>
+                    </div>
+                    <div class="col-1 col-sm-3 col-md-3 col-lg-5"></div>
+                    <div class="col-12 col-md-4 col-lg-3 text-muted text-md-right text-sm-center">
+                        <ul class="list-unstyled list-inline d-flex flex-nowrap d-flex justify-content-md-end">
+                            <li class="list-inline-item mr-lg-5 mr-md-3 mr-sm-2">
+                                <a class="text-muted" href="#">Privacy</a>
+                            </li>
+                            <li class="list-inline-item mr-lg-5 mr-md-3 mr-sm-2">
+                                <a class="text-muted" href="#">Terms</a>
+                            </li>
+                            <li class="list-inline-item mr-lg-1 mr-md-auto">
+                                <a class="text-muted" href="#">Support</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-            <div class="row mt-5">
-                <div class="col-lg-4 col-sm-12 text-muted">
-                    <p class="container-fluid text-left pl-0">
-                        @ 2018-2019 Boulder Box Co.
-                    </p>
-                </div>
-
-                <div class="col-lg-8 col-sm-12 text-muted text-md-right text-sm-center">
-                    <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item mr-5">
-                            <a class="text-muted" href="#">Privacy</a>
-                        </li>
-                        <li class="list-inline-item mr-5">
-                            <a class="text-muted" href="#">Terms</a>
-                        </li>
-                        <li class="list-inline-item mr-auto">
-                            <a class="text-muted" href="#">Support</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,18 +1,35 @@
+body {
+  background-color: #ffffff;
+}
 
 /* footer + checkout */
 .social-af > i {
   color: #9ce1ad;
 }
 
-.header-checkout {
+#checkout-body {
+  background-color: #e0eee3;
+}
+
+.checkout-header {
+  background-color: #e0eee3;
   height: auto;
   margin-bottom: 3rem;
+}
+
+.checkout-header > p {
+  font-size: 3rem;
+  width: 100%;
+}
+
+.checkout-title {
+  color: rgb(126, 14, 23) !important;
 }
 
 .main-logo {
   width: 15rem;
   background-color: #9ce1ad;
-  padding-top: 5rem;
+  padding: 5rem 1rem .5rem 1rem;
 }
 
 .social-btn > i:hover {
@@ -27,9 +44,10 @@
   margin-right: 10%;
 }
 
-footer {
-  padding-left: 10rem;
-  padding-right: 10rem;
+.footer {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #1e201f;
 }
 
 .footer-h5 {
@@ -46,9 +64,6 @@ a {
   color: #9ce1ad;
 }
 
-footer {
-  background-color: #1e201f;
-}
 
 /* Below How it Works CSS */
 #how-it-works > .row {
@@ -126,7 +141,7 @@ p {
 }
 .display-6 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1re;
+  font-size: 1rem;
 }
 
 /* Below As Seen On CSS  */
@@ -161,9 +176,6 @@ p {
   padding: 0;
 }
 
-.row {
-  align-items: center;
-}
 
 /* nav-bar + header */
 
@@ -337,10 +349,6 @@ header .overlay {
 
 
 
-
-
-
-
 /* CSS for pricing  */
 
 section.pricing {
@@ -410,10 +418,6 @@ section.pricing {
     }
 
   /* Image CSS */
-   #product-image {
-     max-width: 5rem; 
-   }
-
-   .card-body > img {
-     
-   }
+  #product-image {
+    max-width: 5rem; 
+  }
