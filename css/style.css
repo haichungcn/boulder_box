@@ -34,6 +34,7 @@ body {
 
 .social-btn > i:hover {
   transform: scale(1.3);
+  transition-duration: 100ms;
 }
 
 .social-af :nth-child(1) {
@@ -65,91 +66,62 @@ a {
 }
 
 /* Below How it Works CSS */
-#how-it-works > .row {
-  background-color: #9de0ad;
-  margin: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+.container-fluid > .row-1 {
+  background-color:white;
   min-height: 300px;
 }
 
-.how-img {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.how-img > i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
-.far {
-  font-size: 100px;
-}
-
-.fas {
-  font-size: 100px;
-}
-
-#how-it-works {
-  padding-bottom: 5rem;
+.container-fluid > .row-2 {
   background-color: #9de0ad;
+  min-height: 300px;
 }
+.container-fluid > .row-3 {
+  background-color: white;
+  min-height: 300px;
+}
+
+.how-img > img {
+  
+  max-width: 100%;
+  padding: 10%;
+
+}
+
+.how-text {
+  padding: 10%;
+  justify-content: center;
+}
+
 #how-it-works > h1 {
   text-align: center;
   color: #9de0ad;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: white;
 }
 
-.mbr-iconfont {
-  font-size: 4.5rem !important;
-  color: #944a50;
-  margin: 1rem;
-  padding-right: 1rem;
+
+
+.how-text > h3 {
+  color: #1c3144;
 }
 
-h2 {
-  color: red;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
+.how-text > h4 {
+  color:#70161e;
 }
 
-h3 {
-  color: black;
+.how-text > p {
+
 }
 
-h4 {
-  color: black;
-}
-
-.display-5 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.4rem;
-}
-
-p {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  line-height: 25px;
-}
-.display-6 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1rem;
-}
 
 /* Below As Seen On CSS  */
 
 #as-seen-on > h1 {
   text-align: center;
   color: #9de0ad;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: white;
 }
 
@@ -367,7 +339,6 @@ p {
         animation-duration: 3s;
         animation-iteration-count: 1;
         animation-delay: 0;
- 
     }
     
     .custom-button-navbar {
@@ -466,15 +437,32 @@ p {
     /* Hover Effects on Card */
     
     @media (min-width: 992px) {
-        .pricing .card:hover {
+        .card:hover {
             margin-top: -.25rem;
             margin-bottom: .25rem;
             box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-        }
-        .pricing .card:hover .btn {
+          }
+        .card:hover .btn {
             opacity: 1;
         }
         /* Image CSS */
         #product-image {
             max-width: 5rem;
         }
+
+  /* Meet the team */
+
+  main {
+    color: #547980;
+  }
+
+  .teamcard {
+    height: 34rem;
+    width: 20rem;
+    padding:0;
+    color: #547980;
+  }
+
+  .teamcard .card-body > h3 {
+    color: #547980;
+  }
