@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 
+=======
+body {
+  background-color: #ffffff;
+}
+>>>>>>> bcc60d56db2e50a407229dd6b582735e04879c29
 
 /* footer + checkout */
 .social-af > i {
   color: #9ce1ad;
 }
 
-.header-checkout {
+#checkout-body {
+  background-color: #e0eee3;
+}
+
+.checkout-header {
   background-color: #e0eee3;
   height: auto;
   margin-bottom: 3rem;
 }
 
-.header-checkout > p {
+.checkout-header > p {
   font-size: 3rem;
   width: 100%;
 }
@@ -23,11 +33,12 @@
 .main-logo {
   width: 15rem;
   background-color: #9ce1ad;
-  padding-top: 5rem;
+  padding: 5rem 1rem .5rem 1rem;
 }
 
 .social-btn > i:hover {
   transform: scale(1.3);
+  transition-duration: 100ms;
 }
 
 .social-af :nth-child(1) {
@@ -38,9 +49,10 @@
   margin-right: 10%;
 }
 
-footer {
-  padding-left: 10rem;
-  padding-right: 10rem;
+.footer {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #1e201f;
 }
 
 .footer-h5 {
@@ -57,96 +69,63 @@ a {
   color: #9ce1ad;
 }
 
-footer {
-  background-color: #1e201f;
-}
-
 /* Below How it Works CSS */
-#how-it-works > .row {
-  background-color: #9de0ad;
-  margin: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+.container-fluid > .row-1 {
+  background-color:white;
   min-height: 300px;
 }
 
-.how-img {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.how-img > i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
-.far {
-  font-size: 100px;
-}
-
-.fas {
-  font-size: 100px;
-}
-
-#how-it-works {
-  padding-bottom: 5rem;
+.container-fluid > .row-2 {
   background-color: #9de0ad;
+  min-height: 300px;
 }
+.container-fluid > .row-3 {
+  background-color: white;
+  min-height: 300px;
+}
+
+.how-img > img {
+  
+  max-width: 100%;
+  padding: 10%;
+
+}
+
+.how-text {
+  padding: 10%;
+  justify-content: center;
+}
+
 #how-it-works > h1 {
   text-align: center;
   color: #9de0ad;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: white;
 }
 
-.mbr-iconfont {
-  font-size: 4.5rem !important;
-  color: #944a50;
-  margin: 1rem;
-  padding-right: 1rem;
+
+
+.how-text > h3 {
+  color: #1c3144;
 }
 
-h2 {
-  color: red;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
+.how-text > h4 {
+  color:#70161e;
 }
 
-h3 {
-  color: black;
+.how-text > p {
+
 }
 
-h4 {
-  color: black;
-}
-
-.display-5 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.4rem;
-}
-
-p {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  line-height: 25px;
-}
-.display-6 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1re;
-}
 
 /* Below As Seen On CSS  */
 
 #as-seen-on > h1 {
   text-align: center;
   color: #9de0ad;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: white;
 }
 
@@ -172,255 +151,322 @@ p {
   padding: 0;
 }
 
-.row {
-  align-items: center;
-}
-
 /* nav-bar + header */
-
-header {
-  position: relative;
-  background-color: black;
-  height: 90vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-nav {
-  font-family: "Roboto", sans-serif;
-}
-
-.navbar-inner {
-  background: transparent;
-}
-
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-  position: relative;
-  z-index: 2;
-}
-
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
-      no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
-}
-
-.meanful-button {
-  font-size: 24px;
-  background: transparent;
-  border: none;
-  color: white;
-  margin-top: 10vh;
-  padding: 5%;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 0.5s;
-}
-
-.meanful-button:hover {
-  box-sizing: border-box;
-  display: inline-block;
-  position: relative;
-  font-size: 24px;
-  background: transparent;
-  border: none;
-  color: white;
-  margin-top: 10vh;
-  padding: 5%;
-  text-align: center;
-  text-decoration: none;
-  border: 10px;
-  border-color: white;
-  border-width: 10px;
-  border-style: double;
-}
-
-.navbar-toggler {
-  color: #547980 !important;
-  margin-right: 65px;
-}
-
-.nav-custom-left {
-  color: #547980 !important;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
-@media (min-width: 992px) {
-  .animate {
-    animation-duration: 0.3s;
-    -webkit-animation-duration: 0.3s;
-    animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-    left: -45% !important;
-    right: auto !important;
-    text-align: center !important;
-  }
-}
-
-@keyframes slideIn {
-  0% {
-    transform: translateY(1rem);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0rem);
-    opacity: 1;
-  }
-  0% {
-    transform: translateY(1rem);
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes slideIn {
-  0% {
-    -webkit-transform: transform;
-    -webkit-opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    -webkit-opacity: 1;
-  }
-  0% {
-    -webkit-transform: translateY(1rem);
-    -webkit-opacity: 0;
-  }
-}
-
-.slideIn {
-  -webkit-animation-name: slideIn;
-  animation-name: slideIn;
-}
-
-.custom-button-navbar {
-  padding: 10px;
-  position: relative;
-  color: #547980 !important;
-  box-sizing: border-box !important;
-  border-width: 0px !important;
-  border-style: solid !important;
-  border-color: #547980 !important;
-  transition-duration: 0.2s;
-}
-
-.custom-button-navbar:hover {
-  padding: 14px;
-  border-width: 1px !important;
-}
-
-.custom-button-navbar:active {
-  padding: 16px;
-  border-width: 1px !important;
-}
-
-
-
-
-
-
-
-
-/* CSS for pricing  */
-
-section.pricing {
-    background: #9de0ad;
-    background: linear-gradient(to bottom, #9de0ad, white);
-  }
-  
-  .pricing .card {
-    border: none;
-    border-radius: 1rem;
-    transition: all 0.2s;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  }
-  
-  .pricing hr {
-    margin: 1.5rem 0;
-  }
-  
-  .pricing .card-title {
-    margin: 0.5rem 0;
-    font-size: 0.9rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-  }
-  
-  .pricing .card-price {
-    font-size: 3rem;
-    margin: 0;
-  }
-  
-  .pricing .card-price .period {
-    font-size: 0.8rem;
-  }
-  
-  .pricing ul li {
-    margin-bottom: 1rem;
-  }
-  
-  .pricing .text-muted {
-    opacity: 0.7;
-  }
-  
-  .pricing .btn {
-    font-size: 0.8rem;
-    border-radius: 5rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    padding: 1rem;
-    opacity: 0.7;
-    transition: all 0.2s;
-  }
-
-  .mountain {
-      font-size: 1.2rem;
-  }
-  
-  /* Hover Effects on Card */
-  
-  @media (min-width: 992px) {
-    .pricing .card:hover {
-      margin-top: -.25rem;
-      margin-bottom: .25rem;
-      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    
+    header {
+        position: relative;
+        background-color: black;
+        height: 100vh;
+        min-height: 25rem;
+        width: 100vw;
+        overflow: hidden;
     }
-    .pricing .card:hover .btn {
-      opacity: 1;
+    
+    nav {
+        font-family: 'Roboto', sans-serif;
+        animation-name: fadeIn;
+        background-color: rgb(255, 255, 255, .95);
+        -webkit-animation-name: fadeIn;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 0;
+        padding: 0 !important;
     }
 
-  /* Image CSS */
-  #product-image {
-    max-width: 5rem; 
+    .navbar-brand{
+        padding: 0;
+        background-color: #9de0ad; 
+    }
+    
+    .the-blur{
+        position: fixed;
+        top:0;
+        width: 100%;
+        min-height: 50px;
+        margin-bottom: 20px;
+        background: rgba(0,0,0,.9);
+        z-index:1010;
+        -webkit-filter: blur(20px);
+        -moz-filter: blur(20px);
+        -o-filter: blur(20px);
+        -ms-filter: blur(20px);
+        filter: blur(20px);
+    }
+
+    header>.navbar-inner {
+        background: transparent;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    header>video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    header>.container {
+        position: relative;
+        z-index: 2;
+    }
+    
+    header>.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.5;
+        z-index: 1;
+    }
+    
+    @media (pointer: coarse) and (hover: none) {
+        header {
+            background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+        }
+        header video {
+            display: none;
+        }
+    }
+
+    .awesome-button{
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        font-weight: 700;
+        font-size: 30px;
+        background-color: transparent;
+        margin-top: 49px;
+        padding: 34px;
+        color: white;
+        border: 4px solid white; /* Green */
+        transition-duration: 0.5s;
+    }
+
+    .awesome-button:hover{
+        outline: 0;
+        padding: 2px;
+        transition-duration: 1s;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        font-weight: 700;
+        font-size: 30px;
+        background-color: transparent;
+        margin-top: 49px;
+        padding: 34px;
+        color: #9de0ad;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-left: 24px solid#9de0ad; /* Green */       
+    }
+    .awesome-button:focus{
+        outline: 0;
+    }
+    
+    .navbar-toggler {
+        color: #547980 !important;
+        margin-right: 65px;
+    }
+    
+    .nav-custom-left {
+        color: #547980 !important;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    @media (min-width: 992px) {
+        .animate {
+            animation-duration: 0.3s;
+            -webkit-animation-duration: 0.3s;
+            animation-fill-mode: both;
+            -webkit-animation-fill-mode: both;
+            left: -95% !important;
+            right: auto !important;
+            text-align: center !important;
+        }
+    }
+    
+    @keyframes slideIn {
+
+        100% {
+            transform: translateY(0rem);
+            opacity: 1;
+        }
+        0% {
+            transform: translateY(5rem);
+            opacity: 0;
+        }
+    }
+    
+    @-webkit-keyframes slideIn {
+        0% {
+            -webkit-transform: transform;
+            -webkit-opacity: 0;
+        }
+        100% {
+            -webkit-transform: translateY(0);
+            -webkit-opacity: 1;
+        }
+        0% {
+            -webkit-transform: translateY(1rem);
+            -webkit-opacity: 0;
+        }
+    }
+    
+    .slideIn {
+        -webkit-animation-name: slideIn;
+        animation-name: slideIn;
+    }
+
+    .header-custom{
+        animation-name: slideIn;
+        -webkit-animation-name: slideIn;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-delay: 0;
+    }
+    
+    .custom-button-navbar {
+        position: relative;
+        color: #547980 !important;
+        box-sizing: border-box !important;
+        border-width: 0px !important;
+        border-style: solid !important;
+        border-color: #547980 !important;
+        transition-duration: 0.2s;
+    }
+    
+    .custom-button-navbar:hover {
+        box-sizing: border-box;
+        padding: 5px;
+        border-width: 1px !important;
+    }
+    
+    .custom-button-navbar:active {
+        box-sizing: border-box;
+        padding: 5px;
+        border-width: 1px !important;
+    }
+    
+    .nav-link {
+        font-weight: 700;
+        transition-duration: 0.5s;
+        color: white;
+    }
+    
+    .nav-link:hover {
+        box-sizing: border-box;
+        padding-bottom: 2px;
+        border-bottom: 1px solid #9ce1ad;
+    }
+    
+    header>.collapse {
+        justify-content: flex-end;
+    }
+    /* CSS for pricing  */
+    
+    section.pricing {
+        background: #9de0ad;
+        background: linear-gradient(to bottom, #9de0ad, white);
+    }
+    
+    .pricing .card {
+        border: none;
+        border-radius: 1rem;
+        transition: all 0.2s;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+    
+    .pricing hr {
+        margin: 1.5rem 0;
+    }
+    
+    .pricing .card-title {
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+    }
+    
+    .pricing .card-price {
+        font-size: 3rem;
+        top: 0;
+        margin-top: 0;
+    }
+    
+    .pricing .card-price .period {
+        font-size: 0.8rem;
+    }
+    
+    .pricing ul li {
+        margin-bottom: 1rem;
+    }
+    
+    .pricing .text-muted {
+        opacity: 0.7;
+    }
+    
+    .pricing .btn {
+        font-size: 0.8rem;
+        border-radius: 5rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        padding: 1rem;
+        opacity: 0.7;
+        transition: all 0.2s;
+    }
+    
+    .mountain {
+        font-size: 1.2rem;
+    }
+    /* Hover Effects on Card */
+    
+    @media (min-width: 992px) {
+        .card:hover {
+            margin-top: -.25rem;
+            margin-bottom: .25rem;
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+          }
+        .card:hover .btn {
+            opacity: 1;
+        }
+        /* Image CSS */
+        #product-image {
+            max-width: 5rem;
+        }
+
+  /* Meet the team */
+
+  main {
+    color: #547980;
+  }
+
+  .teamcard {
+    height: 34rem;
+    width: 20rem;
+    padding:0;
+    color: #547980;
+  }
+
+  .teamcard .card-body > h3 {
+    color: #547980;
   }
